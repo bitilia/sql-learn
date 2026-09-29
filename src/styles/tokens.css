@@ -1,0 +1,140 @@
+/* Material You tokens. Components reference these variables and do not set hex colors. */
+
+:root {
+  --surface: #fffbfE;
+  --on-surface: #1c1b1f;
+  --primary: #6750a4;
+  --on-primary: #ffffff;
+  --primary-container: #eaddff;
+  --on-primary-container: #21005d;
+  --secondary: #625b71;
+  --on-secondary: #ffffff;
+  --secondary-container: #e8def8;
+  --on-secondary-container: #1d192b;
+  --tertiary: #7d5260;
+  --on-tertiary: #ffffff;
+  --tertiary-container: #ffd8e4;
+  --on-tertiary-container: #31111d;
+  --surface-container-lowest: #fffbfE;
+  --surface-container-low: #e7e0ec;
+  --surface-container: #f3edf7;
+  --surface-container-high: #ece6f0;
+  --surface-container-highest: #e6e0e9;
+  --surface-bright: #fffbfE;
+  --outline: #79747e;
+  --outline-variant: #cac4d0;
+  --on-surface-variant: #49454f;
+  --error: #b3261e;
+  --on-error: #ffffff;
+  --error-container: #f9dedc;
+  --on-error-container: #410e0b;
+  --success: #386a20;
+  --on-success: #ffffff;
+  --success-container: #b7f397;
+  --on-success-container: #0c2000;
+  --warning: #7a5900;
+  --on-warning: #ffffff;
+  --warning-container: #ffdea3;
+  --on-warning-container: #261900;
+  --accent-teal: #006a6a;
+  --inverse-surface: #313033;
+  --inverse-on-surface: #f4eff4;
+  --scrim: rgb(28 27 31 / 32%);
+  --workspace: var(--surface-container);
+  --panel: var(--surface);
+  --editor-bg: var(--surface);
+  --blob-blend: multiply;
+  --blob-opacity: 0.28;
+  --elev-1: 0 1px 2px rgb(0 0 0 / 6%), 0 2px 6px rgb(0 0 0 / 5%);
+  --elev-2: 0 6px 16px rgb(0 0 0 / 8%), 0 2px 4px rgb(0 0 0 / 6%);
+  --elev-3: 0 12px 32px rgb(0 0 0 / 12%), 0 4px 10px rgb(0 0 0 / 8%);
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --surface: #141218;
+  --on-surface: #e6e0e9;
+  --primary: #d0bcff;
+  --on-primary: #381e72;
+  --primary-container: #4f378b;
+  --on-primary-container: #eaddff;
+  --secondary: #ccc2dc;
+  --on-secondary: #332d41;
+  --secondary-container: #4a4458;
+  --on-secondary-container: #e8def8;
+  --tertiary: #efb8c8;
+  --on-tertiary: #492532;
+  --tertiary-container: #633b48;
+  --on-tertiary-container: #ffd8e4;
+  --surface-container-lowest: #0f0d13;
+  --surface-container-low: #1d1b20;
+  --surface-container: #211f26;
+  --surface-container-high: #2b2930;
+  --surface-container-highest: #36343b;
+  --surface-bright: #3b383e;
+  --outline: #938f99;
+  --outline-variant: #49454f;
+  --on-surface-variant: #cac4d0;
+  --error: #f2b8b5;
+  --on-error: #601410;
+  --error-container: #8c1d18;
+  --on-error-container: #f9dedc;
+  --success: #9cd67c;
+  --on-success: #0c2000;
+  --success-container: #1e4d12;
+  --on-success-container: #b7f397;
+  --warning: #f5c451;
+  --on-warning: #261900;
+  --warning-container: #5a4300;
+  --on-warning-container: #ffdea3;
+  --accent-teal: #80d5d3;
+  --inverse-surface: #e6e0e9;
+  --inverse-on-surface: #313033;
+  --scrim: rgb(0 0 0 / 52%);
+  --workspace: var(--surface);
+  --panel: var(--surface-container);
+  --editor-bg: var(--surface-container-high);
+  --blob-blend: normal;
+  --blob-opacity: 0.18;
+  --elev-1: 0 1px 2px rgb(0 0 0 / 35%), 0 1px 3px rgb(0 0 0 / 28%);
+  --elev-2: 0 8px 20px rgb(0 0 0 / 40%), 0 2px 6px rgb(0 0 0 / 28%);
+  --elev-3: 0 16px 40px rgb(0 0 0 / 48%), 0 4px 12px rgb(0 0 0 / 32%);
+  color-scheme: dark;
+}
+
+:root {
+  --font-ui: Roboto, "Segoe UI", sans-serif;
+  --font-mono: "Roboto Mono", ui-monospace, monospace;
+  --display-l: 56px;
+  --headline-l: 48px;
+  --headline-m: 32px;
+  --title-l: 24px;
+  --body-l: 20px;
+  --body-m: 16px;
+  --label-m: 14px;
+  --label-s: 12px;
+  --radius-panel: 28px;
+  --radius-card: 24px;
+  --radius-menu: 16px;
+  --radius-field: 12px;
+  --radius-pill: 999px;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --dur-hover: 200ms;
+  --dur-panel: 300ms;
+  --dur-dialog: 400ms;
+  --dur-exit: 160ms;
+  --code-line: 20px;
+  --code-pad: 12px;
+  --bar: 64px;
+  --status: 28px;
+  --celebrate-tick: #ffffff;
+}
+
+@media (max-width: 1023px) {
+  :root {
+    --radius-panel: 16px;
+    --radius-card: 16px;
+    --code-line: 24px;
+    --title-l: 22px;
+  }
+}

@@ -1,0 +1,7 @@
+# SQL Learn is public. Search and answer engines may read it.
+User-agent: *
+Allow: /
+
+Sitemap: https://sqllearn.bitilia.com/sitemap.xml
+
+# https://sqllearn.bitilia.com/llms.txt
